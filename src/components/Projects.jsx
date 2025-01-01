@@ -97,7 +97,7 @@ const Projects = () => {
                 }
                 darkTheme={darkTheme}
                 descripcion='Web page of the interactive map of Colombia where you can select three different types of information and load a respective map where selecting a department shows the information that corresponds to it. Created with HTML, CSS and JS.'
-                imagenes={['mapa-colombia1.webp', 'mapa-colombia2.webp', 'mapa-colombia3.webp']}
+                imagenes={['mapa-colombia1.webp', 'mapa-colombia2.webp']}
               />
 
             </Grid>
@@ -158,8 +158,28 @@ const Projects = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
               <Project
+                title='SoftDental'
+                github={['https://github.com/ANCB03/softdental']}
+                live='https://rick-and-morty-ancb.netlify.app/'
+                img='softdental.png'
+                tech={
+                    [
+                      { nombre: 'JAVA', icono: `${darkTheme ? 'java-dark.webp' : 'java.webp'}` },
+                      { nombre: 'SpringBoot', icono: 'spring-boot.webp' },
+                      { nombre: 'MySQL', icono: 'mysql.svg' },
+                    ]
+                }
+                darkTheme={darkTheme}
+                descripcion='SoftDental is an API for a dental clinic where it helped to keep track of appointments, clinical history and control of the clinic´s equipment. Created with JAVA and the SpringBoot framework.'
+
+              />
+
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+              <Project
                 title='PQRS UFPS'
                 github={['https://github.com/ANCB03/pqrs-backend']}
+                live='https://ancb03.github.io/pqrs-frontend/index.html'
                 img='pqrs.png'
                 tech={
                     [
@@ -177,6 +197,7 @@ const Projects = () => {
               />
 
             </Grid>
+            
           </Grid>
         </Container>
       </div>
