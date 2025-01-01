@@ -103,37 +103,37 @@ const Projects = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
               <Project
-                title='Coinmarket App'
-                github={['https://github.com/ANCB03/coinmarket-app-angular']}
-                live='https://coinmarket-app.netlify.app/'
-                img='coinmarket-app.webp'
+                title='Gifs App'
+                github={['https://github.com/ANCB03/gifs-app-angular']}
+                live='https://ancb03.github.io/gifs-app-angular/'
+                img='gifs-app2.webp'
                 tech={
                     [
                       { nombre: 'Angular', icono: 'angular.webp' },
-                      { nombre: 'TypeScript', icono: 'typescript.svg' },
-                      { nombre: 'Material UI', icono: 'mui.webp' }
+                      { nombre: 'TypeScript', icono: 'typescript.svg' }
                     ]
                 }
                 darkTheme={darkTheme}
-                descripcion='Website that allows users to see the price of cryptocurrencies in real time, which allows users to see the price of the most important cryptocurrencies in the market.'
+                descripcion='GIFs website that connects to the GIPHY API and allows us to search for GIFs and shows 10 results. It also stores in local storage the searches made to be able to search for them again in the future. Created with Angular 16.2.6.'
+                imagenes={['gifs-app.png', 'gifs-app1.webp']}
               />
 
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
               <Project
                 title='Tasks App'
-                github={['https://github.com/ANCB03/task-app-react']}
-                live='https://ANCB03.github.io/task-app-react/'
-                img='tasks-app.webp'
+                github={['https://github.com/ANCB03/tasks-react-redux']}
+                live='https://task-react-redux-ancb.netlify.app/'
+                img='tasks-app.png'
                 tech={
                     [
                       { nombre: 'React.js', icono: `${darkTheme ? 'react-dark.webp' : 'react.webp'}` },
                       { nombre: 'JavaScript', icono: 'js.webp' },
-                      { nombre: 'Tailwind', icono: 'tailwind.webp' }
+                      { nombre: 'Redux', icono: 'redux.svg' }
                     ]
                 }
                 darkTheme={darkTheme}
-                descripcion='Task management website, which allows users to create, edit and delete tasks. Created with React.js.'
+                descripcion='Task web page using Redux for state management in the application. Created with React and Redux.'
               />
 
             </Grid>
