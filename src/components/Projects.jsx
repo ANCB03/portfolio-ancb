@@ -71,7 +71,7 @@ const Projects = () => {
                 title='DBZ MAIN PAGE'
                 github={['https://github.com/ANCB03/angular-bases']}
                 live='https://dbz-main-page.netlify.app/'
-                img='dbz-main-page.webp'
+                img='dbz-main-page1.png'
                 tech={
                     [
                       { nombre: 'Angular', icono: 'angular.webp' }
@@ -79,7 +79,6 @@ const Projects = () => {
                 }
                 darkTheme={darkTheme}
                 descripcion='Heroes website where you can add a character with name and power. This page is a brief overview of the basics in Angular.'
-                imagenes={['dbz-main-page1.png']}
               />
 
             </Grid>
@@ -136,6 +135,45 @@ const Projects = () => {
                 darkTheme={darkTheme}
                 descripcion='Task web page using Redux for state management in the application. Created with React and Redux.'
                 imagenes={['tasks-app1.png']}
+              />
+
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+              <Project
+                title='Rick and Morty'
+                github={['https://github.com/ANCB03/rick-and-morty-react']}
+                live='https://rick-and-morty-ancb.netlify.app/'
+                img='rick-and-morty.png'
+                tech={
+                    [
+                      { nombre: 'React.js', icono: `${darkTheme ? 'react-dark.webp' : 'react.webp'}` },
+                      { nombre: 'TypeScript', icono: 'typescript.svg' }
+                    ]
+                }
+                darkTheme={darkTheme}
+                descripcion='Web page that connects to an API of the characters from the animated series Rick and Morty and shows their name and planet they belong to.'
+                imagenes={['rick-and-morty1.png']}
+              />
+
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+              <Project
+                title='PQRS UFPS'
+                github={['https://github.com/ANCB03/pqrs-backend']}
+                img='pqrs.png'
+                tech={
+                    [
+                      { nombre: 'JAVA', icono: `${darkTheme ? 'java-dark.webp' : 'java.webp'}` },
+                      { nombre: 'HTML', icono: 'html.webp' },
+                      { nombre: 'CSS', icono: 'css.svg' },
+                      { nombre: 'JS', icono: 'js.webp' },
+                      { nombre: 'SpringBoot', icono: 'spring-boot.webp' },
+                      { nombre: 'MySQL', icono: 'mysql.svg' },
+                    ]
+                }
+                darkTheme={darkTheme}
+                descripcion='PQRS website for the Francisco de Paula Santander University that helped to resolve concerns. Users could register and then make a PQRS and this would be notified to the administrator in charge of the page to resolve the concerns. Created with JAVA using the SpringBoot framework, MySQL, HTML, CSS and JS.'
+                imagenes={['pqrs-bd.png','pqrs2.png','pqrs3.png','pqrs4.png','pqrs5.png','pqrs6.png','pqrs7.png','pqrs8.png']}
               />
 
             </Grid>
