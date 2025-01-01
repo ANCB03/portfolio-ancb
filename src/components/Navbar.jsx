@@ -6,7 +6,7 @@ import { ContactPageTwoTone, ContactsTwoTone, DarkMode, InfoTwoTone, StarsRounde
 import { IconButton } from '@mui/material'
 import { useTheme } from '../context/Context'
 
-const urlCv = 'https://drive.google.com/file/d/1t3cDOdWLG6sFgf69jt93mIRY4GNVq5P_/view?usp=sharing'
+const urlCv = 'https://drive.google.com/file/d/1zUlSRtrY5XZ9u3zICBoYvYWdLzXehaRP/view?usp=sharing'
 
 const urlImg = 'https://raw.githubusercontent.com/ANCB03/portfolio-ancb/main/src/assets/'
 
