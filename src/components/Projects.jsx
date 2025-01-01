@@ -39,11 +39,12 @@ const Projects = () => {
                 tech={
                     [
                       { nombre: 'HTML', icono: 'html.webp' },
+                      { nombre: 'CSS', icono: 'css.svg' },
                       { nombre: 'JS', icono: 'js.webp' }
                     ]
                 }
                 darkTheme={darkTheme}
-                descripcion='A chatbot connected to the open ai api to solve doubts about the student statute of the Francisco de Paula Santander University. Created with html, css and js.'
+                descripcion='A chatbot connected to the OPEN AI API to solve doubts about the student statute of the Francisco de Paula Santander University. Created with HTML, CSS and JS.'
 
               />
             </Grid>
@@ -67,37 +68,36 @@ const Projects = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
               <Project
-                title='Droguería App'
-                github={['https://github.com/ANCB03/medicamentos']}
-                live='https://medicamentos-micro.netlify.app/'
-                img='drogueria.png'
+                title='DBZ MAIN PAGE'
+                github={['https://github.com/ANCB03/angular-bases']}
+                live='https://dbz-main-page.netlify.app/'
+                img='dbz-main-page.webp'
                 tech={
                     [
-                      { nombre: 'Angular', icono: 'angular.webp' },
-                      { nombre: 'PrimeNG', icono: 'primeng.webp' },
-                      { nombre: 'MongoDB', icono: 'mongo.webp' }
+                      { nombre: 'Angular', icono: 'angular.webp' }
                     ]
                 }
                 darkTheme={darkTheme}
-                descripcion='Web application for the inventory management of a drugstore, which allows employees to perform different activities in a simple and fast way.'
+                descripcion='Heroes website where you can add a character with name and power. This page is a brief overview of the basics in Angular.'
               />
 
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
               <Project
-                title='Expense-Income Manager'
-                github={['https://github.com/ANCB03/expense-manager']}
-                live='https://expense-income-manager.netlify.app/'
-                img='expense-manager.webp'
+                title='Mapa Colombia'
+                github={['https://github.com/ANCB03/mapa-colombia']}
+                live='https://ancb03.github.io/mapa-colombia/'
+                img='mapa-colombia.webp'
                 tech={
                     [
-                      { nombre: 'React JS', icono: `${darkTheme ? 'react-dark.webp' : 'react.webp'}` },
-                      { nombre: 'Node JS', icono: 'node.webp' },
-                      { nombre: 'Tailwind', icono: 'tailwind.webp' }
+                      { nombre: 'HTML', icono: 'html.webp' },
+                      { nombre: 'CSS', icono: 'css.svg' },
+                      { nombre: 'JS', icono: 'js.webp' }
                     ]
                 }
                 darkTheme={darkTheme}
-                descripcion='Website that allows users to keep track of their expenses and income, which allows to add, edit and delete them. Created with React.js and Node.js.'
+                descripcion='Web page of the interactive map of Colombia where you can select three different types of information and load a respective map where selecting a department shows the information that corresponds to it. Created with HTML, CSS and JS.'
+                imagenes={['mapa-colombia1.webp', 'mapa-colombia2.webp', 'mapa-colombia3.webp']}
               />
 
             </Grid>
