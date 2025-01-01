@@ -10,6 +10,7 @@ const Technologies = () => {
     { url: 'angular.webp', alt: 'Angular' },
     { url: 'primeng.webp', alt: 'PrimeNG' },
     { url: `${darkTheme ? 'react-dark.webp' : 'react.webp'}`, alt: 'React.js' },
+    { url: 'redux.svg', alt: 'Redux' },
     { url: 'js.webp', alt: 'Javascript' },
     { url: 'tailwind.webp', alt: 'Material UI' },
     { url: 'mui.webp', alt: 'Tailwind' },

@@ -79,6 +79,7 @@ const Projects = () => {
                 }
                 darkTheme={darkTheme}
                 descripcion='Heroes website where you can add a character with name and power. This page is a brief overview of the basics in Angular.'
+                imagenes={['dbz-main-page1.png']}
               />
 
             </Grid>
@@ -134,6 +135,7 @@ const Projects = () => {
                 }
                 darkTheme={darkTheme}
                 descripcion='Task web page using Redux for state management in the application. Created with React and Redux.'
+                imagenes={['tasks-app1.png']}
               />
 
             </Grid>
