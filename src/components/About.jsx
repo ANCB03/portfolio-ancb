@@ -12,10 +12,7 @@ const About = () => {
           <h2 className='text-6xl font-bold tracking-tight sm:text-7xl mb-10'>Full Stack Web Developer</h2>
 
           <p className='mt-6 text-lg leading-8 '>
-            I design and code beautiful, simple things, and I love what I do.
-          </p>
-          <p className='mt-6 text-lg leading-8 '>
-            I like to build robust and scalable products with great user experiences.
+          Full Stack web developer passionate about creating innovative and scalable digital solutions.
           </p>
           <div className='mx-auto max-w-2xl mt-20'>
             <img src={urlImg + 'hero-devices.svg'} alt='About img' />

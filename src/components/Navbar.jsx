@@ -45,7 +45,7 @@ const Navbar = () => {
       <nav className='mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8' aria-label='Global'>
         <div className='flex lg:flex-1'>
           <div className='hover:cursor-pointer' onClick={() => navigate('/')}>
-            <img className='h-20 w-auto' src={urlImg + (darkTheme ? 'logo-footer.webp' : 'logo.webp')} alt='Navbar img' />
+            <img className='h-20 w-auto' src={urlImg + (darkTheme ? 'logo.png' : 'logo.png')} alt='Navbar img' />
           </div>
         </div>
         <div className='flex lg:hidden'>
@@ -91,7 +91,7 @@ const Navbar = () => {
             <a className='-m-1.5 p-1.5' onClick={() => navigate('/')}>
               <img
                 className='h-8 w-auto'
-                src={urlImg + (darkTheme ? 'logo-footer.webp' : 'logo.webp')}
+                src={urlImg + (darkTheme ? 'logo.png' : 'logo.png')}
                 alt='logo'
               />
             </a>

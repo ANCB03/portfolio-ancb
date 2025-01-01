@@ -56,12 +56,12 @@ const Footer = () => {
         <img
           loading='lazy'
           className='h-28 w-auto mt-10'
-          src={urlImg + 'logo-footer.webp'}
+          src={urlImg + 'logo.png'}
           alt='Footer img'
         />
 
         <h1 className='my-10 text-xl'>
-          Living, learning, & leveling up one day at a time.
+        Building, innovating, and conquering challenges—one code at a time.
         </h1>
 
         <SocialButtons />
