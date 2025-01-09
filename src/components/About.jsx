@@ -9,7 +9,7 @@ const About = () => {
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-2xl sm:text-center'>
           <h2 className='text-sm font-bold tracking-tight sm:text-lg mb-10'>Hi, I'm Andres Caceres 👋</h2>
-          <h2 className='text-6xl font-bold tracking-tight sm:text-7xl mb-10'>Full Stack Web Developer</h2>
+          <h2 className='text-6xl font-bold tracking-tight sm:text-7xl mb-10'>Full Stack Developer</h2>
 
           <p className='mt-6 text-lg leading-8 '>
           Full Stack web developer passionate about creating innovative and scalable digital solutions.

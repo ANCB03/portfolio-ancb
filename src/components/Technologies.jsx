@@ -20,7 +20,8 @@ const Technologies = () => {
     { url: 'html.webp', alt: 'HTML' },
     { url: 'css.svg', alt: 'CSS' },
     { url: `${darkTheme ? 'github-dark.webp' : 'github.webp'}`, alt: 'Github' },
-    { url: 'bootstrap.webp', alt: 'Bootstrap' }
+    { url: 'bootstrap.webp', alt: 'Bootstrap' },
+    { url: 'flask.svg', alt: 'Flask' }
   ]
 
   return (

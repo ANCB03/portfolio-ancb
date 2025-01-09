@@ -11,12 +11,10 @@ const Skills = () => {
 
         <div className='sm:text-center text-lg font-semibold sm:text-2xl'>
           <p className='mb-8'>
-            I have an excellent ability to work in a team and communicate effectively. I am looking for a challenging opportunity that allows me to apply my skills
-            and experience in a collaborative work environment.
+          I have experience in modern technologies such as React, Angular, Spring Boot, and Flask, I specialize in designing seamless user experiences and robust backend systems, ensuring efficiency and performance in every project.
           </p>
           <p>
-            I'm passionate about taking advantage of all available online resources with the goal of becoming a competent developer, capable of finding sophisticated
-            solutions to complex and demanding problems.
+          I have led initiatives ranging from containerization with Docker to CI/CD pipeline implementation on AWS, and MongoDB database optimization. I also have a strong track record in creating and documenting APIs using Swagger, ensuring efficient and clear integration.
           </p>
         </div>
 
