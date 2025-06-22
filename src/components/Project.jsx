@@ -15,14 +15,14 @@ const ImagenEstilo = styled('img')({
   borderRadius: '5%',
 });
 
-const ImagenExpandida = styled('img')({
-  maxWidth: '70%', // Reduce el ancho máximo al 70% del viewport
-  maxHeight: '70%', // Reduce la altura máxima al 70% del viewport
+const ImagenExpandida = styled('img')(({ theme }) => ({
+  maxWidth: '90vw',
+  maxHeight: '90vh',
   margin: 'auto',
   display: 'block',
-  borderRadius: '5%',
-  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.5)', // Agrega una sombra para destacar la imagen
-});
+  borderRadius: '10px',
+  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.5)',
+}));
 
 const handleShowPage = (arr) => {
   if (arr.length > 1) {
